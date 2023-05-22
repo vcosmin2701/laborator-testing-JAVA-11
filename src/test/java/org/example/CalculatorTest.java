@@ -36,8 +36,15 @@ class CalculatorTest {
     @Test
     public void TestConstructorAndGetResult() {
         Calculator calculator = new Calculator(10);
-        float result = calculator.getResult();
-        assertEquals(10, result);
+        float actualResult = calculator.getResult();
+        assertEquals(10, actualResult);
+    }
+
+    @Test
+    public void testDivisionByZero() {
+        Calculator calculator = new Calculator(10);
+        RuntimeException ex = assertThrows(RuntimeException.class, () -> calculator.division(0));
+        assertTrue(ex.getMessage().equals("Can't divide by zero"));
     }
 
 

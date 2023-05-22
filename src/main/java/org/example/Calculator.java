@@ -19,6 +19,9 @@ public class Calculator {
     }
 
     public Calculator division(float other){
+        if(other==0){
+            throw new IllegalArgumentException("Can't divide by zero");
+        }
         this.nr /= other;
         return this;
     }
