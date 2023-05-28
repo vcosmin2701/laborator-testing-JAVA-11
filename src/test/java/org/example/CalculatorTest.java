@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -30,7 +31,7 @@ class CalculatorTest {
     void TestSquareRoot() {
         Calculator calc = new Calculator(4);
         float actualResult = calc.squareRoot().getResult();
-        assertEquals(4, actualResult);
+        assertEquals(2, actualResult);
     }
 
     @Test
@@ -45,6 +46,12 @@ class CalculatorTest {
         Calculator calculator = new Calculator(10);
         RuntimeException ex = assertThrows(RuntimeException.class, () -> calculator.division(0));
         assertTrue(ex.getMessage().equals("Can't divide by zero"));
+    }
+
+    @Test
+    public void testSquareRoot_negativeNumber() {
+        Calculator calculator = new Calculator(-4);
+        Assertions.assertThrows(IllegalArgumentException.class, calculator::squareRoot);
     }
 
 

@@ -1,7 +1,5 @@
 package org.example;
 
-import static java.lang.Math.pow;
-
 public class Calculator {
     float nr;
     public Calculator(float nr) {
@@ -26,8 +24,11 @@ public class Calculator {
         return this;
     }
 
-    public Calculator squareRoot(){
-        this.nr = (float) pow(this.nr , 1/2.0);
+    public Calculator squareRoot() {
+        if (this.nr< 0) {
+            throw new IllegalArgumentException("Can't calculate square root of a negative number");
+        }
+        this.nr = (float) Math.sqrt((this.nr));
         return this;
     }
 
