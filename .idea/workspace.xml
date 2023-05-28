@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ee9d3bb-b681-47b9-9a99-21651cfa1e0e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ee9d3bb-b681-47b9-9a99-21651cfa1e0e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +204,7 @@
       <workItem from="1684145483606" duration="2986000" />
       <workItem from="1684740400905" duration="3287000" />
       <workItem from="1684746095298" duration="10000" />
-      <workItem from="1685290825040" duration="702000" />
+      <workItem from="1685290825040" duration="1034000" />
     </task>
     <servers />
   </component>
@@ -216,7 +212,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/laborator_testing_JAVA_11$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1685291313274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/laborator_testing_JAVA_11$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1685291561468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/laborator_testing_JAVA_11$CalculatorTest_testNegativeSquareRoot.ic" NAME="CalculatorTest.testNegativeSquareRoot Coverage Results" MODIFIED="1684742186505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/laborator_testing_JAVA_11$CalculatorTest_testDivisionByZero.ic" NAME="CalculatorTest.testDivisionByZero Coverage Results" MODIFIED="1685290871134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/laborator_testing_JAVA_11$CalculatorTest_addition.ic" NAME="CalculatorTest.addition Coverage Results" MODIFIED="1684147862973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
